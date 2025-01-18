@@ -43,7 +43,6 @@ public class LoginAutomationTest {
                 System.out.println("Login successful!");
             } else {
                 System.out.println("Login failed.");
-                System.out.println("Hello Vinayak");
             }
 
         } catch (Exception e) {
