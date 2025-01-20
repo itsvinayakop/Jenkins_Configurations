@@ -13,6 +13,7 @@ public class LoginAutomationTest {
         // Set the ChromeDriver path
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
+        System.out.println("Hey there!");
         // Configure ChromeOptions
         ChromeOptions chromeOptions = new ChromeOptions();
         //String userDataDir = "/tmp/selenium_user_data_" + System.getenv("BUILD_ID");
